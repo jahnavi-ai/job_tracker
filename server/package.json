@@ -1,17 +1,17 @@
 {
   "name": "job_tracker",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",                    
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js",           // ✅ Used by Render
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Full-stack job tracker backend (Node.js + Express + MongoDB)",
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
